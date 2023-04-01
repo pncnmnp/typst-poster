@@ -11,7 +11,7 @@ This is an academic poster template designed for [Typst](https://github.com/typs
 To get started, use the following code:
 
 ```typ
-#import "template.typ": *
+#import "poster.typ": *
 
 #show: poster.with(
   title: "Poster Title",
@@ -26,7 +26,7 @@ To get started, use the following code:
 // Proceed with your content as usual
 ```
 
-For an example, refer to `main.typ`. The default dimensions are `36in` in width and `24in` in height.
+For an example, refer to [`example.typ`](https://github.com/pncnmnp/typst-poster/blob/master/examples/example.typ). The default dimensions are `36in` in width and `24in` in height.
 
 # License
 
