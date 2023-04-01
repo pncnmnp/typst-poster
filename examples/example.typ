@@ -1,4 +1,4 @@
-#import "template.typ": *
+#import "../poster.typ": *
 
 #show: poster.with(
   title: "A typesetting system to untangle the scientific writing process",
@@ -13,7 +13,7 @@
 = #lorem(3)
 #lorem(100)
 #figure(
-  image("./images/Women_operating_typesetting_machines.png", 
+  image("../images/Women_operating_typesetting_machines.png", 
         width: 50%),
   caption: [#lorem(10)]
 )
@@ -51,7 +51,7 @@ $ mat(
 
 #lorem(65)
 #figure(
-  image("./images/Standard_lettering.png", 
+  image("../images/Standard_lettering.png", 
         width: 100%),
   caption: [#lorem(8)]
 )
@@ -101,7 +101,7 @@ $ sum_(k=1)^n k = (n(n+1)) / 2 = (n^2 + n) / 2 $
 )
 
 #figure(
-  image("./images/Rosetta_stone.png", 
+  image("../images/Rosetta_stone.png", 
         width: 100%),
   caption: [#lorem(30)]
 )
