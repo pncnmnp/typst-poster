@@ -14,6 +14,7 @@ To get started, use the following code:
 #import "poster.typ": *
 
 #show: poster.with(
+  size: "'36x24' or '48x36''",
   title: "Poster Title",
   authors: "Author Names (comma separated)",
   departments: "Department Name",

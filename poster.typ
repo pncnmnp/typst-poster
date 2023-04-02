@@ -1,6 +1,9 @@
 // This function gets your whole document as its `body` and formats
 // it as an article in the style of a Poster.
 #let poster(
+  // The poster's size.
+  size: "'36x24' or '48x36''",
+
   // The poster's title.
   title: "Paper Title",
 
@@ -32,12 +35,18 @@
 ) = {
   // Set the body font.
   set text(font: "STIX Two Text", size: 16pt)
+  let width = 36in
+  let height = 24in
+  if size == "48x36" {
+    width = 48in
+    height = 36in
+  }
 
   // Configure the page.
   // This poster defaults to 36in x 24in.
   set page(
-    width: 36in,
-    height: 24in,
+    width: width,
+    height: height,
     margin: 
       (top: 1in, left: 2in, right: 2in, bottom: 2in),
     footer: [
@@ -107,15 +116,17 @@
   })
 
   // Arranging the logo, title, authors, and department in the header.
-  grid(
-    rows: 2,
-    columns: (10in, 1fr),
-    column-gutter: 32pt,
-    row-gutter: 50pt,
-    image(univ_logo, width: 100%),
-    text(48pt, title + "\n\n") + 
-    text(36pt, emph(authors) + 
-        "   (" + departments + ") "),
+  align(center,
+    grid(
+      rows: 2,
+      columns: (10in, 20in),
+      column-gutter: 0pt,
+      row-gutter: 50pt,
+      image(univ_logo, width: 100%),
+      text(48pt, title + "\n\n") + 
+      text(36pt, emph(authors) + 
+          "   (" + departments + ") "),
+    )
   )
 
   // Start three column mode and configure paragraph properties.

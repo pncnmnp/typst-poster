@@ -1,6 +1,7 @@
 #import "../poster.typ": *
 
 #show: poster.with(
+  size: "36x24",
   title: "A typesetting system to untangle the scientific writing process",
   authors: "A. Smith, B. Jones, C. Brown, D. Miller",
   departments: "Department of Computer Science",
