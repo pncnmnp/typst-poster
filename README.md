@@ -4,7 +4,7 @@ This is an academic poster template designed for [Typst](https://github.com/typs
 
 # What does it look like?
 
-![image](https://user-images.githubusercontent.com/24948340/229307990-8b0a4727-1f32-4ee0-8cbb-b5bdb531e616.png)
+![Example of a horizotal poster](./images/readme_horizontal.png)
 
 # Getting Started
 
@@ -52,8 +52,7 @@ Yes, but certain default parameters need to be adjusted to achieve this. Please 
 
 Here is an example of how a two-column poster looks.
 
-![image](https://user-images.githubusercontent.com/24948340/229382132-f79308f2-9897-4a39-965e-944ae6873c19.png)
-
+![Example of a horizotal poster](./images/readme_vertical.png)
 
 # License
 
