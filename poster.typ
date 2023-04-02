@@ -35,15 +35,9 @@
 ) = {
   // Set the body font.
   set text(font: "STIX Two Text", size: 16pt)
-  let width = 36in
-  let height = 24in
-  if size == "48x36" {
-    width = 48in
-    height = 36in
-  } else if size == "36x48" {
-    width = 36in
-    height = 48in
-  }
+  let sizes = size.split("x")
+  let width = int(sizes.at(0)) * 1in
+  let height = int(sizes.at(1)) * 1in
 
   // Configure the page.
   // This poster defaults to 36in x 24in.
