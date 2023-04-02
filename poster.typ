@@ -40,6 +40,9 @@
   if size == "48x36" {
     width = 48in
     height = 36in
+  } else if size == "36x48" {
+    width = 36in
+    height = 48in
   }
 
   // Configure the page.
