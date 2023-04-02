@@ -21,6 +21,7 @@ To get started, use the following code:
   footer_text: "Name of Conference or Course Name",
   footer_url: "Conference URL",
   footer_email_ids: "Email IDs of authors (comma separated)",
+  footer_color: "Hex Color Code",
 )
 
 // Proceed with your content as usual
@@ -30,7 +31,7 @@ For an example, refer to [`example.typ`](https://github.com/pncnmnp/typst-poster
 
 # License
 
-This template is licensed under the [MIT License](https://github.com/pncnmnp/typst-poster/blob/master/LICENSE). 
-All images in `main.typ`, except for NC State's Logo, are in the Public Domain. 
-NC State's Logo is the property of North Carolina State University. 
+This template is licensed under the [MIT License](https://github.com/pncnmnp/typst-poster/blob/master/LICENSE).
+All images in `main.typ`, except for NC State's Logo, are in the Public Domain.
+NC State's Logo is the property of North Carolina State University.
 This project is not sponsored or affiliated with NC State.

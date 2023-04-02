@@ -24,6 +24,9 @@
   // Email IDs of the authors.
   footer_email_ids: "Email IDs (separated by commas)",
 
+  // Color of the footer.
+  footer_color: "Hex Color Code",
+
   // The poster's content.
   body
 ) = {
@@ -41,7 +44,7 @@
       #set align(center)
       #set text(32pt)
       #block(
-        fill: rgb("ebcfb2"),
+        fill: rgb(footer_color),
         width: 100%,
         inset: 20pt,
         radius: 10pt,

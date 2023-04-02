@@ -8,6 +8,7 @@
   footer_text: "Conference on Typesetting Systems, 2000",
   footer_url: "https://www.example.com/",
   footer_email_ids: "abc@example.com",
+  footer_color: "ebcfb2",
 )
 
 = #lorem(3)
