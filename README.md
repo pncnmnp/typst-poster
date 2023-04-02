@@ -50,6 +50,11 @@ For an example, refer to [`example.typ`](https://github.com/pncnmnp/typst-poster
 
 Yes, but certain default parameters need to be adjusted to achieve this. Please refer to `./examples/example_2_column_18_24.typ` for an example on how to make the necessary adjustments.
 
+Here is an example of how a two-column poster looks.
+
+![image](https://user-images.githubusercontent.com/24948340/229382132-f79308f2-9897-4a39-965e-944ae6873c19.png)
+
+
 # License
 
 This template is licensed under the [MIT License](https://github.com/pncnmnp/typst-poster/blob/master/LICENSE).
