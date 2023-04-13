@@ -26,11 +26,12 @@ To get started, use the following code:
 
   // Additional Parameters
   // =====
-  // For 3-column posters, these usually do not require any adjustments.
+  // For 3-column posters, these usually DO NOT require any adjustments.
   // However, they are important for 2-column posters.
   // Refer to ./examples/example_2_column_18_24.typ for an example.
   // Defaults are commented on the right side
 
+  keywords: Array of keywords, // default is empty
   num_columns: "Number of columns in the poster", // 3
   univ_logo_scale: "University logo's scale (in %)", // 100%
   univ_logo_column_size: "University logo's column size (in in)", // 10in

@@ -10,6 +10,9 @@
   footer_url: "https://www.example.com/",
   footer_email_ids: "abc@example.com",
   footer_color: "ebcfb2",
+
+  // Modifying the defaults
+  keywords: ("Typesetting", "Scientific Writing", "Typst"),
 )
 
 = #lorem(3)
@@ -104,6 +107,6 @@ $ sum_(k=1)^n k = (n(n+1)) / 2 = (n^2 + n) / 2 $
 
 #figure(
   image("../images/Rosetta_stone.png", 
-        width: 100%),
+        width: 85%),
   caption: [#lorem(30)]
 )

@@ -37,6 +37,9 @@
   // For 2-column posters, you may need to tweak these values.
   // See ./examples/example_2_column_18_24.typ for an example.
 
+  // Any keywords or index terms that you want to highlight at the beginning.
+  keywords: (),
+
   // Number of columns in the poster.
   num_columns: "3",
 
@@ -175,6 +178,13 @@
   show: columns.with(num_columns, gutter: 64pt)
   set par(justify: true, first-line-indent: 0em)
   show par: set block(spacing: 0.65em)
+
+  // Display the keywords.
+  if keywords != () [
+      #set text(24pt, weight: 400)
+      #show "Keywords": smallcaps
+      *Keywords* --- #keywords.join(", ")
+  ]
 
   // Display the poster's contents.
   body
